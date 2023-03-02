@@ -1,0 +1,45 @@
+====
+    Copyright TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+====
+
+changes in brocommon.xsd
+------------------------
+
+versie 2.3.1
+----------
+-- Algemeen --
+- namespace aangepast naar http://www.broservices.nl/xsd/brocommon/2.3
+- yourTransactionReference hernoemd naar requestReference
+- broTransactionReference hernoemd broTransactionId
+
+-- IntakeResponseType --
+- acceptanceTime vervallen
+- ErrorMessageType versimpeld naar 1 type foutomschrijving
+- Volgorde van attributen aangepast conform Innameservice Specificaties
+
+
+versie 2.3.2 SP  07-10-2015:
+---------------------------
+- IntakeResponseType aangepast aan F3B 0.5 specs
+- SourceDocumentErrorType toegevoegd
+- SystemExceptionType toegevoegd (Melding SysteemFout)
+
+
+versie 2.5.3 FW 04-10-2016:
+--------------------------
+- ObjectDeregisteredType -> DeregisteredObjectType
+- ResponseTypeType -> ResponseTypeEnumeration
+
+openstaand 
+- FDO voor transactieberichten voor uitgifte nog niet klaar
+- ErrorMessage (nu nog aanwezig voor uitgifte) kan tzt verwijderd worden na specs uitgifte F3B
+- uitgecommentarieerde classes opruimen
+ 

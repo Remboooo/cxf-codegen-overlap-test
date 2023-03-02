@@ -1,0 +1,22 @@
+====
+    Copyright 2012-2019 TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+====
+
+Changelog isgmn-messages.xsd
+----------------------------
+
+26-3-2021 v1.0.3
+  * correcties voor startregistratie toegevoegd.
+
+30-8-2021 v1.0.4
+  * Netwerk met history tbv IMBRO/A (archief) toegevoegd
+  * cardinaliteit meetpunt / buisverwijzing veranderd van maxoccurs=unbounded naar maxoccurs=1 tbv bouw correcties
+  * insert / delete toegevoegd in wsdl
