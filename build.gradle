@@ -29,15 +29,10 @@ dependencies {
 
 def generatedSourcesDir = "${buildDir}/generated-src"
 def xmlDir = "$projectDir/src/main/resources/bro/schema"
-"src\\main\\resources\\bro.schema\\dsgld-v1.0.wsdl"
 
 for (item in [
         ["isgmw-v1.1", "isgmw"],
-//        ["dsgmw-v1.1", "dsgmw"],
         ["isgmn-v1.0", "isgmn"],
-//        ["dsgmn-v1.0", "dsgmn"],
-//        ["isgld-v1.0", "isgld"],
-//        ["dsgld-v1.0", "dsgld"]
 ]) {
     def (wsdlName, bindingsName) = item
     tasks.register("wsdl2java-${bindingsName}", Wsdl2Java) {
